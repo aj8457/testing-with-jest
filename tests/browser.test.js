@@ -57,5 +57,5 @@ test("The what is ontop of stack should return alert box", async () => {
     const newalertText = await newAlert.getText();
     
     // Expected True om talet är samma som 1
-    expect(newalertText).toEqual('2');
+    expect(newalertText).toEqual('1');
 })

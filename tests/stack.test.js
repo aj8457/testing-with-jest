@@ -20,5 +20,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 
 test('return false because stack is empty', () => {
     // Return false that the stack is empty since it has elements in it from previous test
-    expect(stack.isEmpty()).toBe(true)
+    expect(stack.isEmpty()).toBe(false)
 });
