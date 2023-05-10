@@ -10,5 +10,8 @@
     "test": "jest tests"
   },
   "author": "bajram",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.13.6"
+  }
 }
