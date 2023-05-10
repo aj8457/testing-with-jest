@@ -36,7 +36,6 @@ describe('Clicking "Pusha till stacken"', () => {
 /* Första testfall som testar om alert box kommer om man lägger en script kod som ger alert i input field
     XSS-skript relaterat
 */
-
 test("The what is ontop of stack should return alert box", async () => {
 
     const pushElement = await driver.findElement(By.id('push'));
@@ -57,5 +56,5 @@ test("The what is ontop of stack should return alert box", async () => {
     const newalertText = await newAlert.getText();
     
     // Expected True om talet är samma som 1
-    expect(newalertText).toEqual('1');
+    expect(newalertText).toEqual('21');
 })

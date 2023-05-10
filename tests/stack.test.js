@@ -18,7 +18,10 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBe(42);
 });
 
-test('return false because stack is empty', () => {
-    // Return false that the stack is empty since it has elements in it from previous test
-    expect(stack.isEmpty()).toBe(false)
+
+test('Check if isNaN func works when NaN is pushed to stack', () => {
+
+    stack.push(+'12..')
+    expect(isNaN(stack.peek())).toBe(!isNaN(+'12..'))
+
 });
