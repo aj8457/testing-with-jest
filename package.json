@@ -12,9 +12,13 @@
   "author": "bajram",
   "license": "ISC",
   "dependencies": {
+    "geckodriver": "^3.2.0",
+    "selenium-webdriver": "^4.9.1",
     "underscore": "^1.13.6"
   },
   "devDependencies": {
-    "webpack": "^5.82.0"
+    "jest": "^29.5.0",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.1"
   }
 }
