@@ -1,0 +1,14 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "See this link (test link)",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "author": "bajram",
+  "license": "ISC"
+}
