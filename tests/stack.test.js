@@ -22,6 +22,6 @@ test('peek on stack with two or more elements returns the top element', () => {
 test('Check if isNaN func works when NaN is pushed to stack', () => {
 
     stack.push(+'12..')
-    expect(isNaN(stack.peek())).toBe(!isNaN(+'12..'))
+    expect(isNaN(stack.peek())).toBe(isNaN(+'12..'))
 
 });
