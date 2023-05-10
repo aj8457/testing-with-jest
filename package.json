@@ -13,5 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "underscore": "^1.13.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.82.0"
   }
 }
